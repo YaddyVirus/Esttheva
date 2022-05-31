@@ -3,7 +3,7 @@ export default function Footer() {
         <div className="container-fluid bg-light">
             <footer className="d-flex flex-wrap justify-content-between align-items-center p-5 mt-4 border-top">
                 <div className="col-md-4 d-flex align-items-center">
-                    <a href="/" className="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <a href="#" className="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
                         <img src="/logoMain.jpg" height="64" alt="" />
                     </a>
                     <span className="mb-3 mb-md-0 text-muted">© 2022 Esttheva<br></br>Made with <ion-icon name="heart"></ion-icon> by Defiance Web Studios</span>

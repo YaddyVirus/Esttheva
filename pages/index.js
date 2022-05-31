@@ -160,7 +160,7 @@ export default function Home() {
           <div className="col-lg-7 text-center text-lg-start">
             <h1 className="display-4 fw-bold lh-1 mb-3">Visit Us</h1>
             <p className="col-lg-10 fs-5">
-              We'd love to have you over
+              We&apos;d love to have you over
             </p>
             <p>
               Shop no. 2, Shangrila Vaibhav, 14th Road,<br />

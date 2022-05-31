@@ -41,8 +41,8 @@ export default function Franchise() {
                                 </select>
                                 <label htmlFor="floatingSelect">Size</label>
                             </div>
-                            <div class="form-floating mb-3">
-                                <select class="form-select" id="floatingSelect" aria-label="investment">
+                            <div className="form-floating mb-3">
+                                <select className="form-select" id="floatingSelect" aria-label="investment">
                                     <option selected>20 Lakhs</option>
                                 </select>
                                 <label htmlFor="floatingSelect">Investment</label>
