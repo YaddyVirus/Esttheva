@@ -1,0 +1,22 @@
+.navlink:link {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.navlink:visited {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    color: #d69c4a;
+    text-decoration: none;
+}
+
+.navlink:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
