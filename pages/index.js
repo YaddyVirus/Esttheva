@@ -18,16 +18,20 @@ export default function Home() {
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="slider-1.jpg" className="d-block w-100" alt="..." />
+            <img src="/hair.jpg" className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src="slider-2.jpg" className="d-block w-100" alt="..." />
+            <img src="/makeup.jpg" className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src="slider-3.jpg" className="d-block w-100" alt="..." />
+            <img src="/manipedi.jpg" className="d-block w-100" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <img src="/nail.jpg" className="d-block w-100" alt="..." />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -49,8 +53,8 @@ export default function Home() {
               <div className="card text-center" >
                 <img src="/t5.jpg" className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Skin & Beauty Maintainance</h5>
-                  <a href="#" className="btn btn-outline-warning">Show services</a>
+                  <h5 className="card-title">Skin &#38; Beauty Maintainance</h5>
+                  <Link href="/nails"><a href="#" className="btn btn-outline-warning">Show services</a></Link>
                 </div>
               </div>
             </div>
@@ -61,7 +65,7 @@ export default function Home() {
                 <img src="/t1.jpg" className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">Hair Services</h5>
-                  <a href="#" className="btn btn-outline-warning">Show services</a>
+                  <Link href="/nails"><a href="#" className="btn btn-outline-warning">Show services</a></Link>
                 </div>
               </div>
             </div>
@@ -71,8 +75,8 @@ export default function Home() {
               <div className="card text-center">
                 <img src="/t4.jpg" className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Advanced Hair Treatments & Processs</h5>
-                  <a href="#" className="btn btn-outline-warning">Show services</a>
+                  <h5 className="card-title">Advanced Hair Treatments &#38; Processs</h5>
+                  <Link href="/nails"><a href="#" className="btn btn-outline-warning">Show services</a></Link>
                 </div>
               </div>
             </div>
@@ -82,8 +86,8 @@ export default function Home() {
               <div className="card text-center">
                 <img src="/nails1.jpg" className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Manicure & Pedicure</h5>
-                  <a href="#" className="btn btn-outline-warning">Show services</a>
+                  <h5 className="card-title">Manicure &#38; Pedicure</h5>
+                  <Link href="/nails"><a href="#" className="btn btn-outline-warning">Show services</a></Link>
                 </div>
               </div>
             </div>
@@ -94,6 +98,17 @@ export default function Home() {
                 <img src="/t3.jpg" className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">Nails</h5>
+                  <Link href="/nails"><a href="#" className="btn btn-outline-warning">Show services</a></Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="">
+              <div className="card text-center">
+                <img src="/bridal.jpg" className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Bridal Services</h5>
                   <Link href="/nails"><a href="#" className="btn btn-outline-warning">Show services</a></Link>
                 </div>
               </div>
@@ -172,7 +187,7 @@ export default function Home() {
           <div className="col-md-10 mx-auto col-lg-5">
             <form className="p-4 p-md-5 border rounded-3 bg-light">
               <div className="form-floating mb-3">
-                <input type="text" className="form-control" name="contactName" placeholder="What do we call you?"/>
+                <input type="text" className="form-control" name="contactName" placeholder="What do we call you?" />
                 <label htmlFor="">Your name</label>
               </div>
               <div className="form-floating mb-3">
