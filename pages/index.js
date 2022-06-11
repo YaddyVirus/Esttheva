@@ -10,6 +10,13 @@ export default function Home() {
 
   return (
     <div className="container-fluid p-0">
+
+      {/* AOS Script */}
+      <Script id='animate'>
+        {`
+          AOS.init();
+        `}
+      </Script>
       <Header></Header>
 
       {/* Main Carousel */}
@@ -46,11 +53,86 @@ export default function Home() {
 
       {/* Two section */}
 
-      <div className="container my-5" id='section'>
+      <div className='container my-5' id='section'>
+        <div className='row g-5'>
+          <div className='col-md-6'>
+            <Link href='/hair'>
+              <div className="card text-center shadow-lg rounded-3" >
+                <img src="/t1.jpg" className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Hair Services</h5>
+                  {/* <Link href="/nails"><a href="#" className="btn btn-outline-warning">Hair Services</a></Link> */}
+                </div>
+              </div>
+            </Link>
+          </div>
+          <div className='col-md-6'>
+            <Link href='/advancedHair'>
+              <div className="card text-center shadow-lg rounded-3">
+                <img src="/t4.jpg" className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Advanced Hair Treatments &#38; Process</h5>
+                  {/* <Link href="/nails"><a href="#" className="btn btn-outline-warning">Show services</a></Link> */}
+                </div>
+              </div>
+            </Link>
+          </div>
+        </div>
+        <div className='row g-5 mt-1'>
+          <div className='col-md-6'>
+            <Link href='/manipedi'>
+              <div className="card text-center shadow-lg rounded-3">
+                <img src="/nails1.jpg" className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Manicure &#38; Pedicure</h5>
+                  {/* <Link href="/nails"><a href="#" className="btn btn-outline-warning">Show services</a></Link> */}
+                </div>
+              </div>
+            </Link>
+          </div>
+          <div className='col-md-6'>
+            <Link href='/nails'>
+              <div className="card text-center shadow-lg rounded-3" >
+                <img src="/t3.jpg" className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Nails</h5>
+                  {/* <Link href="/nails"><a href="#" className="btn btn-outline-warning">Show services</a></Link> */}
+                </div>
+              </div>
+            </Link>
+          </div>
+        </div>
+        <div className='row g-5 mt-1'>
+          <div className='col-md-6'>
+            <Link href='/beauty'>
+              <div className="card text-center shadow-lg rounded-3" >
+                <img src="/t5.jpg" className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Skin &#38; Beauty Maintainance</h5>
+                  {/* <Link href="/nails"><a href="#" className="btn btn-outline-warning">Show services</a></Link> */}
+                </div>
+              </div>
+            </Link>
+          </div>
+          <div className='col-md-6'>
+            <Link href='/bridal'>
+              <div className="card text-center shadow-lg rounded-3">
+                <img src="/bridal.jpg" className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Bridal Services</h5>
+                  {/* <Link href="/nails"><a href="#" className="btn btn-outline-warning">Show services</a></Link> */}
+                </div>
+              </div>
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="container my-5" id='section'>
         <div className="row g-5">
           <div className="col-md-6">
             <div className="">
-              <div className="card text-center" >
+              <div className="card text-center shadow-lg" >
                 <img src="/t5.jpg" className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">Skin &#38; Beauty Maintainance</h5>
@@ -115,17 +197,26 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Product carousel */}
-      <h1 className='text-center mb-5'>Products we use</h1>
+      <h1 className='text-center my-5'>Products we use</h1>
       <div className='container'>
         <div className="my-slider">
-          <div><img src="https://via.placeholder.com/200" alt="" /></div>
-          <div><img src="https://via.placeholder.com/200" alt="" /></div>
-          <div><img src="https://via.placeholder.com/200" alt="" /></div>
-          <div><img src="https://via.placeholder.com/200" alt="" /></div>
-          <div><img src="https://via.placeholder.com/200" alt="" /></div>
+          <div><img src="/product-1.jpg" height='250' alt="" /></div>
+          <div><img src="/product-2.jpg" height='250' alt="" /></div>
+          <div><img src="/product-3.jpg" height='250' alt="" /></div>
+          <div><img src="/product-4.jpg" height='250' alt="" /></div>
+          <div><img src="/product-5.jpg" height='250' alt="" /></div>
+          <div><img src="/product-6.jpg" height='250' alt="" /></div>
+          <div><img src="/product-7.jpg" height='250' alt="" /></div>
+          <div><img src="/product-8.jpg" height='250' alt="" /></div>
+          <div><img src="/product-9.jpg" height='250' alt="" /></div>
+          <div><img src="/product-10.jpg" height='250' alt="" /></div>
+          <div><img src="/product-11.jpg" height='250' alt="" /></div>
+          <div><img src="/product-12.jpg" height='250' alt="" /></div>
+          <div><img src="/product-13.jpg" height='250' alt="" /></div>
+          <div><img src="/product-14.jpg" height='250' alt="" /></div>
         </div>
 
 
@@ -134,7 +225,7 @@ export default function Home() {
           {`
             var slider = tns({
               container: '.my-slider',
-              items: 5,
+              items: 6,
               autoplay: true,
               autoplayTimeout: 2000,
               gutter: 20,
@@ -158,7 +249,7 @@ export default function Home() {
                   fixedWidth: 250,
                 },
                 1440: {
-                  items: 5,
+                  items: 3,
                   gutter: 50,
                   fixedWidth: 250,
                   center: true,

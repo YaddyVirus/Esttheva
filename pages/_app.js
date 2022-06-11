@@ -15,10 +15,12 @@ function MyApp({ Component, pageProps }) {
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
       <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"></link>
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
       <Component {...pageProps} />
       <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
       <script noModule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </>
   )
 }
