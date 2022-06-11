@@ -1,5 +1,6 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer"
+import Appointment from "../components/Appointment"
 
 export default function Nails() {
     return (
@@ -47,7 +48,7 @@ export default function Nails() {
                     </tbody>
                 </table>
                 <div className="container text-center">
-                    <button className="btn btn-primary btn-lg">Book an appointment</button>
+                    <Appointment></Appointment>
                 </div>
             </div>
             <Footer></Footer>
