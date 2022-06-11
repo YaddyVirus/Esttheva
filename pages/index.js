@@ -9,14 +9,7 @@ import Script from 'next/script'
 export default function Home() {
 
   return (
-    <div className="container-fluid p-0">
-
-      {/* AOS Script */}
-      <Script id='animate'>
-        {`
-          AOS.init();
-        `}
-      </Script>
+    <div className='container'>
       <Header></Header>
 
       {/* Main Carousel */}
