@@ -9,7 +9,7 @@ import Script from 'next/script'
 export default function Home() {
 
   return (
-    <div className='container'>
+    <div className='container-fluid'>
       <Header></Header>
 
       {/* Main Carousel */}
