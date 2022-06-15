@@ -41,13 +41,14 @@ export default function Header() {
         <div className='container'>
             <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3">
                 <a href="#" className="d-flex navbar-brand align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-                    <img src="logoMain.jpg" height="40" alt="" />
-                    <h1>Esttheva</h1>
+                    <img src="logoMain.jpg" className='d-inline-block align-text-top' height="24" alt="" />
+                    Esttheva
                 </a>
 
                 <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                    <Link href="/"><li><a href="#" className={`${styles.navlink} nav-link fs-5`}>Home</a></li></Link>
-                    <Link href="/#section"><li><a href="#" className={`${styles.navlink} nav-link fs-5`}>Services</a></li></Link>
+                    <li><a href="/" className={`${styles.navlink} nav-link fs-5`}>Home</a></li>
+                    <li><a href="/#section" className={`${styles.navlink} nav-link fs-5`}>Services</a></li>
+                    <Link href="/offers"><li><a href="#" className={`${styles.navlink} nav-link fs-5`}>Offers</a></li></Link>
                     <Link href="/franchise"><li><a href="#" className={`${styles.navlink} nav-link fs-5`}>Franchise</a></li></Link>
                     <Link href="/about"><li><a href="#" className={`${styles.navlink} nav-link fs-5`}>About Us</a></li></Link>
                     <Link href="/#contact"><li><a href="#c" className={`${styles.navlink} nav-link fs-5`}>Contact</a></li></Link>

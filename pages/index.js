@@ -1,6 +1,7 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Link from 'next/link'
+import Head from 'next/head'
 
 import styles from '../styles/Home.module.css'
 import Script from 'next/script'
@@ -10,6 +11,7 @@ export default function Home() {
 
   return (
     <div className='container-fluid'>
+
       <Header></Header>
 
       {/* Main Carousel */}
@@ -214,42 +216,42 @@ export default function Home() {
 
 
         {/* Script */}
-        <Script id='tester'>
-          {`
-            var slider = tns({
-              container: '.my-slider',
-              items: 6,
-              autoplay: true,
-              autoplayTimeout: 2000,
-              gutter: 20,
-              autoplayButtonOutput: false,
-              controls: false,
-              navPosition: 'bottom',
-              nav: false,
-              mouseDrag: true,
-              arrowKeys: true,
-              responsive: {
-                300: {
-                  items: 2,
-                  gutter: 50,
-                  center: true,
-                  fixedWidth: 250,
-                },
-                700: {
-                  items: 3,
-                  gutter: 50,
-                  center: true,
-                  fixedWidth: 250,
-                },
-                1440: {
-                  items: 3,
-                  gutter: 50,
-                  fixedWidth: 250,
-                  center: true,
-                }
+        <Script id='tester' dangerouslySetInnerHTML={{
+          __html: `
+          var slider = tns({
+            container: '.my-slider',
+            items: 6,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            gutter: 20,
+            autoplayButtonOutput: false,
+            controls: false,
+            navPosition: 'bottom',
+            nav: false,
+            mouseDrag: true,
+            arrowKeys: true,
+            responsive: {
+              300: {
+                items: 2,
+                gutter: 50,
+                center: true,
+                fixedWidth: 250,
+              },
+              700: {
+                items: 3,
+                gutter: 50,
+                center: true,
+                fixedWidth: 250,
+              },
+              1440: {
+                items: 3,
+                gutter: 50,
+                fixedWidth: 250,
+                center: true,
               }
-            });
-          `}
+            }
+          });`
+        }}>
         </Script>
       </div>
 

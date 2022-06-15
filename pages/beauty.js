@@ -6,8 +6,8 @@ export default function beauty() {
     return (
         <>
             <Header></Header>
-            <div className="container">
-                <h1 className="display-3 text-center">Skin & Beauty Maintenance (Male & Female)</h1>
+            <div className="container p-3">
+                <h1 className="display-3 text-center">Skin &#38; Beauty Maintenance (Male &#38; Female)</h1>
                 <table className="table table-striped table-hover">
                     <thead>
                         <tr>
@@ -15,10 +15,10 @@ export default function beauty() {
                             <th scope="col">Price</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody className="">
                         <tr>
                             <th scope="row">Body Bleaching</th>
-                            <td>Rs. 2500 </td>
+                            <td>Rs. 2500</td>
                         </tr>
                         <tr>
                             <th scope="row">Facial with Bleach</th>
@@ -53,7 +53,7 @@ export default function beauty() {
                             <td>Rs. 1000</td>
                         </tr>
                         <tr>
-                            <th scope="row">Back & Abdomen Waxing</th>
+                            <th scope="row">Back &#38; Abdomen Waxing</th>
                             <td>Rs. 800 </td>
                         </tr>
                         <tr>
@@ -109,7 +109,7 @@ export default function beauty() {
                             <td>Rs. 150 </td>
                         </tr>
                         <tr>
-                            <th scope="row">Combo Threading Eyebrows & Upperlip 140 rs Underarms- Honey</th>
+                            <th scope="row">Combo Threading Eyebrows &#38; Upperlip 140 rs Underarms- Honey</th>
                             <td>Rs. 100 </td>
                         </tr>
                         <tr>
@@ -117,12 +117,12 @@ export default function beauty() {
                             <td>Rs. 100 </td>
                         </tr>
                         <tr>
-                            <th scope="row">Chin & Neck Waxing</th>
+                            <th scope="row">Chin &#38; Neck Waxing</th>
                             <td>Rs. 100 </td>
                         </tr>
                         <tr>
                             <th scope="row">Nose Waxing</th>
-                            <td>Rs. 100 </td>
+                            <td>Rs. 100</td>
                         </tr>
                         <tr>
                             <th scope="row">Threading Eyebrows</th>
@@ -134,11 +134,11 @@ export default function beauty() {
                         </tr>
                         <tr>
                             <th scope="row">Threading Chin</th>
-                            <td>Rs. 60 </td>
+                            <td>Rs. 60</td>
                         </tr>
                         <tr>
                             <th scope="row">Threading Forehead</th>
-                            <td>Rs. 50 </td>
+                            <td>Rs. 50</td>
                         </tr>
                     </tbody>
                 </table>
