@@ -10,10 +10,10 @@ export default function Footer() {
                 </div>
 
                 <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-                    <li className="ms-3"><a className="text-muted"  target="_blank" href="https://www.instagram.com/esttheva.salon/?hl=en"><ion-icon size="large" name="logo-instagram"></ion-icon></a></li>
-                    <li className="ms-3"><a className="text-muted"  target="_blank" href="https://www.facebook.com/Esttheva-discovering-your-core-312869729392638/"><ion-icon size="large" name="logo-facebook"></ion-icon></a></li>
-                    <li className="ms-3"><a className="text-muted"  target="_blank" href="https://api.whatsapp.com/send?phone=919372315299&text=Hello, I'd like an appointment"><ion-icon size="large" name="logo-whatsapp"></ion-icon></a></li>
-                    <li className="ms-3"><a className="text-muted"  target="_blank" href="https://www.linkedin.com/company/esttheva/"><ion-icon size="large" name="logo-linkedin"></ion-icon></a></li>
+                    <li className="ms-3"><a className="text-muted"  target="_blank" rel="noreferrer" href="https://www.instagram.com/esttheva.salon/?hl=en"><ion-icon size="large" name="logo-instagram"></ion-icon></a></li>
+                    <li className="ms-3"><a className="text-muted"  target="_blank" rel="noreferrer"  href="https://www.facebook.com/Esttheva-discovering-your-core-312869729392638/"><ion-icon size="large" name="logo-facebook"></ion-icon></a></li>
+                    <li className="ms-3"><a className="text-muted"  target="_blank" rel="noreferrer"  href="https://api.whatsapp.com/send?phone=919372315299&text=Hello, I'd like an appointment"><ion-icon size="large" name="logo-whatsapp"></ion-icon></a></li>
+                    <li className="ms-3"><a className="text-muted"  target="_blank" rel="noreferrer"  href="https://www.linkedin.com/company/esttheva/"><ion-icon size="large" name="logo-linkedin"></ion-icon></a></li>
                 </ul>
             </footer>
         </div>
