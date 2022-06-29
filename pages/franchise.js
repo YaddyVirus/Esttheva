@@ -36,7 +36,7 @@ export default function Franchise() {
             {/* Franchise models div */}
             <div className="contianer-fluid ">
                 <div className={`${styles.shadowBox} container p-0`}>
-                    <h3 className="p-3">We're one of the few brands that allows partners to leave day to day operations to the brand and enjoy themselves</h3>
+                    <h3 className="p-3">We&apos;re one of the few brands that allows partners to leave day to day operations to the brand and enjoy themselves</h3>
 
                     {/* Franchise Models */}
                     {/* Model A */}
