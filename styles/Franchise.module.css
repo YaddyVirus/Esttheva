@@ -1,0 +1,19 @@
+.golden {
+    color: gold
+}
+
+.title {
+    font-size: 120px;
+    overflow: hidden;
+}
+
+
+.modelTitle {
+    color: gold;
+    height: 70px;
+}
+
+.shadowBox {
+    box-shadow: 10px 10px 50px 10px rgba(180, 180, 180, 0.5);
+    border-radius: 8px;
+}
