@@ -1,5 +1,6 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer"
+import Link from "next/link"
 import styles from "../styles/Franchise.module.css"
 
 export default function Franchise() {
@@ -18,19 +19,24 @@ export default function Franchise() {
             </div>
             <div className="container-fluid row my-5 px-5 ">
                 <div className="col-md-6">
-                    <h1 className={`${styles.someDiv} display-1 fw-bold text-uppercase`}>If you are<br></br> looking to</h1>
-                    <ul className="display-6">
-                        <li>Own a salon business</li>
-                        <li>To have something of your own</li>
-                        <li>And most importantly, want to join our family</li>
+                    <h1 className={`${styles.someDiv} display-1 fw-bold text-uppercase`}>Why Esttheva?</h1>
+                    <ul className="lead">
+                        <li>Our unique Support Model guarantees you growth, unlike anything else in the salon industry.</li>
+                        <li>Being an Esttheva franchisee, you&apos;ll be at the cornerstone of franchising.</li>
+                        <li>This billion dollar industry is just a few steps away from you. It&apos;s a chance to be competitive and to have some growth in the process.</li>
+                        <li>At Esttheva, we provide our consumers with the newest fashion trends in a comfortable and modern setting, employing the greatest beauty products available.</li>
+                        <li>With one of the greatest Hair, Skin &#38; Nails salon franchises in the industry, you may join us and be your own boss.</li>
                     </ul>
+                    <div className="text-center my-3">
+                        <Link href="/franchise#franchiseContact">
+                            <button className="btn btn-outline-warning btn-lg rounded-pill">Join us</button>
+                        </Link>
+                    </div>
                 </div>
                 <div className="col-md-6 d-flex flex-column justify-content-center align-items-center">
                     <img src="/franch-2.png" className="img-fluid" alt="" />
                 </div>
-                <div className="text-center my-3">
-                    <button className="btn btn-outline-warning btn-lg">Join us</button>
-                </div>
+
             </div>
 
             {/* Franchise models div */}
@@ -71,7 +77,7 @@ export default function Franchise() {
                                 <p>FOCO/FOFO</p>
                             </div>
                             <div className="col-md-2 d-flex flex-column justify-content-center align-items-center">
-                                <img src="/franch-icon-6.png" className="img-fluid" alt="" />
+                                <img src="/hand-shake.png" className="img-fluid" alt="" />
                                 <p className="fw-bold mt-2">Agreement Term</p>
                                 <p>5 years</p>
                             </div>
@@ -110,7 +116,7 @@ export default function Franchise() {
                                 <p>FOCO/FOFO</p>
                             </div>
                             <div className="col-md-2 d-flex flex-column justify-content-center align-items-center">
-                                <img src="/franch-icon-6.png" className="img-fluid" alt="" />
+                                <img src="/hand-shake.png" className="img-fluid" alt="" />
                                 <p className="fw-bold mt-2">Agreement Term</p>
                                 <p>5 years</p>
                             </div>
@@ -149,7 +155,7 @@ export default function Franchise() {
                                 <p>FOCO/FOFO</p>
                             </div>
                             <div className="col-md-2 d-flex flex-column justify-content-center align-items-center">
-                                <img src="/franch-icon-6.png" className="img-fluid" alt="" />
+                                <img src="/hand-shake.png" className="img-fluid" alt="" />
                                 <p className="fw-bold mt-2">Agreement Term</p>
                                 <p>5 years</p>
                             </div>
@@ -159,7 +165,7 @@ export default function Franchise() {
             </div>
 
             {/* Franchise page form*/}
-            <div className="container col-xl-10 col-xxl-8  py-5" id='contact'>
+            <div className="container col-xl-10 col-xxl-8  py-5" id='franchiseContact'>
                 <div className="row align-items-center g-lg-5 py-5">
                     <div className="col-lg-7 text-center text-lg-start">
                         <h1 className="display-4 fw-bold lh-1 mb-3">Work with us</h1>

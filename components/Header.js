@@ -51,7 +51,7 @@ export default function Header() {
                     <Link href="/offers"><li><a href="#" className={`${styles.navlink} nav-link fs-5`}>Offers</a></li></Link>
                     <Link href="/franchise"><li><a href="#" className={`${styles.navlink} nav-link fs-5`}>Franchise</a></li></Link>
                     <Link href="/about"><li><a href="#" className={`${styles.navlink} nav-link fs-5`}>About Us</a></li></Link>
-                    <Link href="/#contact"><li><a href="#c" className={`${styles.navlink} nav-link fs-5`}>Contact</a></li></Link>
+                    <li><a href="/#contact" className={`${styles.navlink} nav-link fs-5`}>Contact</a></li>
                 </ul>
 
                 {/* <div className="col-md-3 text-end">
