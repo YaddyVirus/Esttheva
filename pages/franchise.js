@@ -24,7 +24,7 @@ export default function Franchise() {
                         <li>Our unique Support Model guarantees you growth, unlike anything else in the salon industry.</li>
                         <li>Being an Esttheva franchisee, you&apos;ll be at the cornerstone of franchising.</li>
                         <li>This billion dollar industry is just a few steps away from you. It&apos;s a chance to be competitive and to have some growth in the process.</li>
-                        <li>At Esttheva, we provide our consumers with the newest fashion trends in a comfortable and modern setting, employing the greatest beauty products available.</li>
+                        <li>At Esttheva, we provide our consumers with the newest trends in a comfortable and modern setting, employing the greatest beauty products available.</li>
                         <li>With one of the greatest Hair, Skin &#38; Nails salon franchises in the industry, you may join us and be your own boss.</li>
                     </ul>
                     <div className="text-center my-3">
@@ -54,12 +54,12 @@ export default function Franchise() {
                             <div className="col-md-2 d-flex flex-column justify-content-center align-items-center">
                                 <img src="/franch-icon-1.png" className="img-fluid" alt="" />
                                 <p className="fw-bold mt-2">Mininum Area Required</p>
-                                <p>700 sq ft</p>
+                                <p>600-700 sq ft</p>
                             </div>
                             <div className="col-md-2 d-flex flex-column justify-content-center align-items-center">
                                 <img src="/franch-icon-2.png" className="img-fluid" alt="" />
                                 <p className="fw-bold mt-2">Total Investment</p>
-                                <p>INR 22-30 Lacs</p>
+                                <p>INR 25-30 Lacs</p>
                             </div>
                             <div className="col-md-2 d-flex flex-column justify-content-center align-items-center">
                                 <img src="/franch-icon-3.png" className="img-fluid" alt="" />
@@ -93,12 +93,12 @@ export default function Franchise() {
                             <div className="col-md-2 d-flex flex-column justify-content-center align-items-center">
                                 <img src="/franch-icon-1.png" className="img-fluid" alt="" />
                                 <p className="fw-bold mt-2">Mininum Area Required</p>
-                                <p>700 sq ft</p>
+                                <p>700-900 sq ft</p>
                             </div>
                             <div className="col-md-2 d-flex flex-column justify-content-center align-items-center">
                                 <img src="/franch-icon-2.png" className="img-fluid" alt="" />
                                 <p className="fw-bold mt-2">Total Investment</p>
-                                <p>INR 22-30 Lacs</p>
+                                <p>INR 30-35 Lacs</p>
                             </div>
                             <div className="col-md-2 d-flex flex-column justify-content-center align-items-center">
                                 <img src="/franch-icon-3.png" className="img-fluid" alt="" />
@@ -124,7 +124,7 @@ export default function Franchise() {
                     </div>
 
                     {/* Model C */}
-                    <div className={`${styles.modelTitle} bg-dark`}>
+                    {/* <div className={`${styles.modelTitle} bg-dark`}>
                         <p className="lead px-5 py-3 fw-bold">Franchise Model C</p>
                     </div>
                     <div className="container p-5">
@@ -160,7 +160,7 @@ export default function Franchise() {
                                 <p>5 years</p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
@@ -193,13 +193,15 @@ export default function Franchise() {
                             </div>
                             <div className="form-floating mb-3">
                                 <select className="form-select" id="floatingSelect" aria-label="size">
-                                    <option>700 sq ft</option>
+                                    <option>600-700 sq ft</option>
+                                    <option>700-900 sq ft</option>
                                 </select>
                                 <label htmlFor="floatingSelect">Size</label>
                             </div>
                             <div className="form-floating mb-3">
                                 <select className="form-select" id="floatingSelect" aria-label="investment">
                                     <option>25-30 Lakhs</option>
+                                    <option>30-35 Lakhs</option>
                                 </select>
                                 <label htmlFor="floatingSelect">Investment</label>
                             </div>
